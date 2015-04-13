@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name = %q{file_fixture}
   s.version = "0.1.1"
 
-  s.required_rubygems_version = Gem::Requirement.new("= 1.2") if s.respond_to? :required_rubygems_version=
+  s.required_rubygems_version = Gem::Requirement.new("> 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Josh Nichols"]
   s.date = %q{2008-07-14}
   s.description = %q{A helper method for loading files during test}
